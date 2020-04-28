@@ -3,7 +3,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Main extends JPanel{
+public class Q2Main extends JPanel{
 
     private static final int MIN = 0;
     private static final int MAX = 200;
@@ -47,7 +47,7 @@ public class Main extends JPanel{
         JFrame frame = new JFrame("MyShape");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
-        Main gui = new Main();
+        Q2Main gui = new Q2Main();
         frame.add(gui);
         frame.setVisible(true);
 

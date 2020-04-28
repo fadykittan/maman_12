@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class  MainClass {
+
+public class Q1Main {
 
     private static final int FROM = 1;
     private static final int TO = 100;
