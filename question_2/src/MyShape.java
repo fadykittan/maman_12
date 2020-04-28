@@ -57,7 +57,7 @@ public abstract class MyShape implements Cloneable {
         this.color = color;
     }
 
-    public abstract Object clone();
+    public abstract MyShape clone();
 
     public abstract void drawMe(Graphics g);
 

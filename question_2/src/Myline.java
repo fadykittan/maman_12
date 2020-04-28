@@ -16,7 +16,7 @@ public class Myline extends MyShape  {
         g.drawLine(x1,y1,x2,y2);
     }
 
-    public double calculateLine (){
+    private double calculateLine (){
         double d;
         d= Math.sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
         return d;
